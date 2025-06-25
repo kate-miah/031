@@ -28,8 +28,12 @@ let consoleMessage = 'Hello ' + (userName || 'Анонім');
 console.log(consoleMessage); 
 
 
-let result = prompt('How old are you?');
+//let result = prompt('How old are you?');
 // let num = Number(result);
 // console.log(num);
 //console.log(Munber(result));
-alert(Number(result));
+//alert(Number(result));
+
+
+let result = prompt('Скільки місяців ви вивчаєте JavaScript?');
+console.log('Я вивчаю JavaCsript ' + result + ' місяця(ів)' )
