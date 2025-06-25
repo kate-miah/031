@@ -26,3 +26,10 @@ console.log(age1);
 let userName = '';
 let consoleMessage = 'Hello ' + (userName || 'Анонім');
 console.log(consoleMessage); 
+
+
+let result = prompt('How old are you?');
+// let num = Number(result);
+// console.log(num);
+//console.log(Munber(result));
+alert(Number(result));
