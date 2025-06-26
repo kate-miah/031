@@ -35,5 +35,44 @@ console.log(consoleMessage);
 //alert(Number(result));
 
 
-let result = prompt('Скільки місяців ви вивчаєте JavaScript?');
-console.log('Я вивчаю JavaCsript ' + result + ' місяця(ів)' )
+//let result = prompt('Скільки місяців ви вивчаєте JavaScript?');
+//console.log('Я вивчаю JavaCsript ' + result + ' місяця(ів)' )
+
+//let sum = 5;
+//if (2+2 === sum) {
+  //  console.log('two plus two is really four')
+//}
+
+//console.log('another console for cheking')
+
+/* Оператор if
+
+if (умова, яка має повертати логічне значення) {
+    блок коду,, який виконується, якщо умова = true
+}
+    */
+
+/* Оператор if-else
+
+if (умова, яка має повертати логічне значення) {
+    блок коду, який виконується, якщо умова = true
+} ele {
+    блок коду, який виконується, якщо умова = false
+}
+
+*/
+
+let sum = 4;
+if (2+2 === sum) {
+    console.log('two plus two is really four')
+} else {
+    console.log('Рівняння було невірне')
+}
+console.log('another console for cheking')
+
+let numb = Number(prompt('Введіть число більше 20'));
+if (numb >= 20) {
+    alert('Це правильне число');
+} else {
+    alert('Це число не підходить');
+}
