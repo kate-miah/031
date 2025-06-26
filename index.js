@@ -27,24 +27,24 @@ let userName = '';
 let consoleMessage = 'Hello ' + (userName || 'Анонім');
 console.log(consoleMessage); 
 */
+/*
+let result = prompt('How old are you?');
+let num = Number(result);
+console.log(num);
+console.log(Munber(result));
+alert(Number(result));
 
-//let result = prompt('How old are you?');
-// let num = Number(result);
-// console.log(num);
-//console.log(Munber(result));
-//alert(Number(result));
 
+let result = prompt('Скільки місяців ви вивчаєте JavaScript?');
+console.log('Я вивчаю JavaCsript ' + result + ' місяця(ів)' )
 
-//let result = prompt('Скільки місяців ви вивчаєте JavaScript?');
-//console.log('Я вивчаю JavaCsript ' + result + ' місяця(ів)' )
+let sum = 5;
+if (2+2 === sum) {
+    console.log('two plus two is really four')
+}
 
-//let sum = 5;
-//if (2+2 === sum) {
-  //  console.log('two plus two is really four')
-//}
-
-//console.log('another console for cheking')
-
+console.log('another console for cheking')
+*/
 /* Оператор if
 
 if (умова, яка має повертати логічне значення) {
@@ -91,9 +91,23 @@ if (ageUser >= 18) {
     */
 
 //Task2
-let num = Number(prompt('Введіть будь-яке число?'));
+/*let num = Number(prompt('Введіть будь-яке число?'));
     if (num >= 0) {
         alert('Число додатне');
     } else {
-        alert('Число від\'ємне')
+        alert('Число від\'ємне');
+    }
+*/
+
+let num = Number(prompt('Введіть будь-яке число?'));
+    if (num > 0) {
+        alert('Число додатне');
+    } else if (num ===0) {
+        alert('Нуль не додатне і не від\'мне');
+    } else if (num < 0) {
+        alert('Число від\'ємне');
+    } else if (isNaN(num)) {
+        alert('Ви ввели не число');
+    } else {
+        alert()
     }
