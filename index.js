@@ -14,7 +14,7 @@
 // let mathResult = '2 + 2 = ' + result;
 // console.log(mathResult);
 
-
+/*
 let age = 30;
 age >= 20 && age <30;
 console.log(age);
@@ -26,7 +26,7 @@ console.log(age1);
 let userName = '';
 let consoleMessage = 'Hello ' + (userName || 'Анонім');
 console.log(consoleMessage); 
-
+*/
 
 //let result = prompt('How old are you?');
 // let num = Number(result);
@@ -61,7 +61,7 @@ if (умова, яка має повертати логічне значення
 }
 
 */
-
+/*
 let sum = 4;
 if (2+2 === sum) {
     console.log('two plus two is really four')
@@ -69,10 +69,31 @@ if (2+2 === sum) {
     console.log('Рівняння було невірне')
 }
 console.log('another console for cheking')
-
+*/
+/*
 let numb = Number(prompt('Введіть число більше 20'));
 if (numb >= 20) {
     alert('Це правильне число');
 } else {
-    alert('Це число не підходить');
+   alert('Це число не підходить');
 }
+*/
+
+//Task
+
+/*
+let ageUser = Number(prompt('Скільки Вам років?'));
+if (ageUser >= 18) {
+    alert('Ви повнолітня людина.');
+} else {
+    alert('Ви неповнолітня людина.');
+}
+    */
+
+//Task2
+let num = Number(prompt('Введіть будь-яке число?'));
+    if (num >= 0) {
+        alert('Число додатне');
+    } else {
+        alert('Число від\'ємне')
+    }
