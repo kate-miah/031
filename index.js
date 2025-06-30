@@ -130,4 +130,15 @@ let num = Number(prompt('Введіть будь-яке число?'));
     } else {
         console.log('Ви ввели не число');
     }
-        */
+    */
+
+    /*
+        let userNum = Number(prompt('Введіть будь-яке число?'));
+        if (isNan(userNum)) {
+        console.log('Ви ввели не число');
+        } else if (userNum % 2) {
+        console.log('Число непарне');
+        } else {
+        console.log('Число парне');
+        }
+    */
