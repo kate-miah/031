@@ -99,6 +99,7 @@ if (ageUser >= 18) {
     }
 */
 
+/*
 let num = Number(prompt('Введіть будь-яке число?'));
     if (num > 0) {
         alert('Число додатне');
@@ -111,3 +112,22 @@ let num = Number(prompt('Введіть будь-яке число?'));
     } else {
         alert()
     }
+        */
+
+    let userNum = Number(prompt('Введіть будь-яке число?'));
+    if (userNum % 2 == 0) {
+        console.log('Число парне');
+    } else {
+        console.log('Число непарне');
+    }
+
+    /*
+      let userNum = Number(prompt('Введіть будь-яке число?'));
+    if (userNum % 2 == 0) {
+        console.log('Число парне');
+    } else if (userNum % 2 == 1) {
+     console.log('Число непарне');
+    } else {
+        console.log('Ви ввели не число');
+    }
+        */
