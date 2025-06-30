@@ -113,7 +113,7 @@ let num = Number(prompt('Введіть будь-яке число?'));
         alert()
     }
         */
-
+    debugger;
     let userNum = Number(prompt('Введіть будь-яке число?'));
     if (userNum % 2 == 0) {
         console.log('Число парне');
